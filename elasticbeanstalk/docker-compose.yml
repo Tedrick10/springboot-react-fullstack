@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  backend:
+    image: "thettunkyaw10/springboot-react-fullstack:latest"
+    port:
+      - "80:8080"
+    restart: "always"
